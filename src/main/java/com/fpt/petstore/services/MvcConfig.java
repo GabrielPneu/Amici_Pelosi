@@ -8,9 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * Created by Nizis on 1/21/2021.
- */
+
 @Configuration
 public class MvcConfig implements WebMvcConfigurer{
     @Override

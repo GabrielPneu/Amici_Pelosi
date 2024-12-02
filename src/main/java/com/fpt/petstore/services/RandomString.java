@@ -4,9 +4,7 @@ import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
 
-/**
- * Created by Nizis on 4/29/2021.
- */
+
 @Service
 public class RandomString {
     public String getRandomString(int length){

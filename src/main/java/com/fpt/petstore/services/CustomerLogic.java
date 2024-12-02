@@ -10,9 +10,7 @@ import org.springframework.stereotype.Component;
 
 import com.fpt.petstore.entities.Customer;
 
-/**
- * @author linuss
- */
+
 @Component
 public class CustomerLogic {
 

@@ -16,9 +16,6 @@ import org.springframework.stereotype.Component;
 
 import com.fpt.petstore.util.DateUtil;
 
-/**
- * @author linuss
- */
 
 @Component
 public class ProductLogic {

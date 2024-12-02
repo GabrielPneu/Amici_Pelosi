@@ -10,9 +10,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * @author linuss
- */
 
 @Repository
 public interface FoodRepository extends PagingAndSortingRepository<Food, Long> {

@@ -19,9 +19,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author linuss
- */
 
 @Component
 public class FoodLogic extends DAO {

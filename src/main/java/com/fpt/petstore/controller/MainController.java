@@ -101,10 +101,10 @@ public class MainController {
         }
     }
 
-    @GetMapping("/blog-detail")
+    @GetMapping("/blog-details")
     public String viewBlogDetailsPage(HttpSession session) {
         getCookie(session);
-        return "blog-detail";
+        return "blog-details";
     }
 
     @GetMapping("/checkout")

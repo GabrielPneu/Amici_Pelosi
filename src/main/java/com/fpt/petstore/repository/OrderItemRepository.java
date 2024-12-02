@@ -7,9 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by Nizis on 4/14/2021.
- */
 @Repository
 public interface OrderItemRepository extends JpaRepository<OrderItem,Integer> {
     @Query(value = "SELECT * FROM ORDER_ITEM oi INNER JOIN ORDERS o on oi.orderid= o.id where oi.orderid =?1",nativeQuery = true)
